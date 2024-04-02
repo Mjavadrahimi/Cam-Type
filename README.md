@@ -9,7 +9,8 @@ use 28*28 image as input, last layer has 26 cells(A-Z indicator)
 
 2- Hand-Gesture-Recognizer (neural network) [https://github.com/Mjavadrahimi/Custom_Hand_Gesture]
 
-This module interprets hand gestures, your index finger is the tip of the virtual pen:
+This module interprets hand gestures, your index finger is the tip of the virtual pen.
+
 defined hand-gestures/commands:
 - index-finger-up: Indicates that the virtual pen is down, and you are typing.
 - clenched-fist: Signifies that you have finished writing a letter and are ready for the next letter.
