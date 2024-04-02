@@ -13,5 +13,5 @@ This module interprets hand gestures, your index finger is the tip of the virtua
 
 defined hand-gestures/commands:
 - index-finger-up: Indicates that the virtual pen is down, and you are typing.
-- clenched-fist: Signifies that you have finished writing a letter and are ready for the next letter.
+- clenched-fist(Hold for 0.5 seconds): Signifies that you have finished writing a letter and are ready for the next letter.
 - open-palm(Hold for 2 seconds): Deletes the last character entered.
