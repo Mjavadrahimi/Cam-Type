@@ -61,7 +61,7 @@ STRING_TO_CODE = {
 
 
 class HandGesture:
-    def __init__(self, PATH):
+    def __init__(self, PATH='hand_gesture_model.pth'):
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.model = Model(42, 20, 3).to(self.device)
         self.model.load_state_dict(torch.load(PATH))
